@@ -35,4 +35,4 @@ def load_data(tables: dict):
             logging.error(f"Failed to load table {table_name}: {e}")
             raise
 
-    logging.info("All dim and fact files loaded successfully!")
+    logging.info("All dim and fact tables have been loaded successfully!")
